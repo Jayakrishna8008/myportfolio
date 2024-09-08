@@ -1,0 +1,88 @@
+.home-container{
+    display: flex;
+    background-color: #fdfdfd;
+    height: 100vh;
+}
+
+.personal-information-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 60px;
+ }
+
+ .portfolio{
+  display: flex;
+  justify-content: flex-start;
+ }
+.overplay{
+    
+    border-top: 384px solid #754ef9;
+    border-right: 384px solid #754ef9;
+    border-bottom: 384px solid #754ef9;
+    border-left: 384px solid transparent;
+   
+    }
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom:1rem;
+    }
+
+h1{
+font-size: 5.6rem;
+font-weight: 700;
+margin-bottom:1rem;
+}
+
+p{
+font-size: 1.7rem;
+margin-bottom:1rem;
+
+}
+
+.social-media{
+    display: flex;
+    background-color: transparent;
+    margin-bottom:1rem;
+    margin-top:2rem;
+ 
+     /* border: 2rem solid #754ef9; */
+      /* color: #754ef9; */
+}
+ 
+.icon{
+    color: #754ef9 ;
+    width: 4rem;
+    font-size: 2rem;
+    border: 2px solid #754ef9; /* width | style | color */
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 2rem;
+    padding-top: 4px;
+    transition: .5s ease;
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,.2);
+}
+
+.button{
+    margin-top: 1rem;
+    background: #754ef9;
+    border-radius: .6rem;
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,.2);
+    color: #fdfdfd;
+     font-weight: 900;
+    border: .2rem solid transparent;
+    width:140px;
+    height: 37px;
+    padding-left: 1.7rem;
+    padding-top: 8.9px;
+}
