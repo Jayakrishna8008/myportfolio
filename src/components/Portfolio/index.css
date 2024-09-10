@@ -1,0 +1,18 @@
+
+.projects-container{
+   
+    height: 100vh;
+}
+
+.project-image{
+    width:400px;
+    margin:10px;
+    border-radius: 11px;
+}
+
+.project-card{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+}

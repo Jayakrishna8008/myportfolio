@@ -29,8 +29,7 @@ const Home=()=>(
             {/* <div className='header'>
            <Header />
            </div> */}
-           <h1>hai</h1>
-
+ 
         </div>
       </div>
 )

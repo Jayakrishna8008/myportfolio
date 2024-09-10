@@ -1,0 +1,14 @@
+.button{
+    margin-top: 1rem;
+    background: #754ef9;
+    border-radius: .6rem;
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,.2);
+    color: #fdfdfd;
+     font-weight: 900;
+    border: .2rem solid transparent;
+    width:140px;
+    height: 37px;
+    padding-right:15px;
+    padding-bottom: 30px;
+     
+}

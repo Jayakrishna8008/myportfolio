@@ -1,0 +1,41 @@
+h2{
+    font-size: 57px;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    margin-top:107px;
+}
+.span{
+    color:#754ef9 ;
+}
+h3{
+    font-size: 27px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 27px;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-box{
+     background-color:#fdfdfd;
+    padding:3rem 2rem 4rem;
+    border-radius: 2rem;
+    box-shadow:0.1rem .5rem rgba(0,0,0,.2);
+    text-align: center;
+    border-top: .6rem solid #754ef9;
+    border-bottom: .6rem solid #754ef9;
+    width: 50%;
+    margin-top: 27px;
+}
+
+.web-icon{
+    font-size: 7rem;
+    color: #754ef9;
+}

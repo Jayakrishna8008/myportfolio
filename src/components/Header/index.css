@@ -22,9 +22,15 @@ header{
 }
 .nav-link{
      font-size: 1.7rem;
-    color:#fdfdfd;
-    font-weight: 500;
+     color: #000;
+     font-weight: 500;
     margin-right: 3.5rem;
+}
+
+.nav-link:hover {
+    color: #007bff; /* Change text color on hover */
+    font-weight: 600; /* Increase font weight on hover */
+    text-decoration: underline; /* Optional: add an underline */
 }
 
 .active {

@@ -3,6 +3,8 @@ import { FaRegMoon } from "react-icons/fa";
 import './index.css'
 const Header=()=>(
     <>
+    <header>
+    <Link to="/" className="logo">Portfolio.</Link>
     <nav>
     <ul className="nav-menu">
         <li className="nav-menu-item">
@@ -33,6 +35,7 @@ const Header=()=>(
     </ul>
 </nav>
 <FaRegMoon className="darkmode-icon" />
+</header>
 </>
 )
 
